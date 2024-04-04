@@ -6,3 +6,9 @@ var typed = new Typed("#typed", {
   startDelay: 1000,
   loop: true,
 });
+
+// Facts counter
+$('.counter').counterUp({
+  delay: 10,
+  time: 1000
+});
