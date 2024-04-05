@@ -12,3 +12,10 @@ $('.counter').counterUp({
   delay: 10,
   time: 1000
 });
+
+// Skills
+$('.skill').waypoint(function () {
+  $('.progress .progress-bar').each(function () {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+  });
+}, {offset: '100%'});
