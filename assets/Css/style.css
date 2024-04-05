@@ -658,3 +658,120 @@ button:focus {
 .text-cm-primary {
   color: #6244C5 !important;
 }
+
+/* exparinace & skills csss */
+
+.cm-primary_btn {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 46px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(#ffffff, #ffffff),
+    radial-gradient(circle at top left, #4458dc, #854fee);
+  border: 2px solid #854fee;
+  color: #222222;
+  box-shadow: none;
+  background-clip: border-box;
+}
+
+.cm-primary_btn.active {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 46px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+    radial-gradient(circle at top left, #4458dc, #854fee);
+  border: double 2px transparent;
+  box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+
+#skill .progress {
+  height: 5px;
+  border-radius: 5px;
+}
+
+#skill .progress .progress-bar {
+  width: 0px;
+  border-radius: 5px;
+  transition: 3s;
+}
+
+#skill .nav-pills .nav-link {
+  color: var(--dark);
+}
+
+#skill .nav-pills .nav-link.active {
+  color: #FFFFFF;
+}
+
+#skill .tab-content hr {
+  width: 30px;
+}
+
+.bg-html {
+  background-color: #F16A30 !important;
+}
+
+.bg-css {
+  background-color: #2D53E5 !important;
+}
+
+.bg-js {
+  background-color: #F0DC55 !important;
+}
+
+.bg-jq {
+  background-image: linear-gradient(to right, #106DAF, #1A222F) !important;
+}
+
+.bg-njs {
+  background-color: #000000 !important;
+}
+
+.bg-react {
+  background: #11DAFF !important;
+}
+
+.bg-python {
+  background-image: linear-gradient(to right, #3D74A3, #FFD448) !important;
+}
+
+.bg-dj {
+  background-color: #174435 !important;
+}
+
+.bg-flask {
+  background-image: linear-gradient(to right, #174435, #366EC2) !important;
+}
+
+.bg-nodejs {
+  background-image: linear-gradient(to right, #86CF33, #393939, #448A43) !important;
+}
+
+.bg-express {
+  background-color: #90C53F !important;
+}
+
+.bg-database {
+  background-color: #488FC9 !important;
+}
