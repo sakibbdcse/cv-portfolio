@@ -1,3 +1,24 @@
+var nav_offset_top = $('header').height() + 50;
+	/*-------------------------------------------------------------------------------
+	  Navbar 
+	-------------------------------------------------------------------------------*/
+
+	//* Navbar Fixed
+	function navbarFixed() {
+		if ($('.header_area').length) {
+			$(window).scroll(function() {
+				var scroll = $(window).scrollTop();
+				if (scroll >= nav_offset_top) {
+					$('.header_area').addClass('navbar_fixed');
+				} else {
+					$('.header_area').removeClass('navbar_fixed');
+				}
+			});
+		}
+	}
+	navbarFixed();
+
+	/*----------------------------------------------------*/
 var typed = new Typed("#typed", {
   stringsElement: "#typed-strings",
   typeSpeed: 100,
@@ -30,4 +51,13 @@ $('#portfolio-flters li').on('click', function () {
   $(this).addClass('active');
 
   portfolioIsotope.isotope({filter: $(this).data('filter')});
+});
+
+// Testimonials carousel
+$(".testimonial-carousel").owlCarousel({
+	autoplay: true,
+	smartSpeed: 1000,
+	items: 1,
+	dots: true,
+	loop: true,
 });
