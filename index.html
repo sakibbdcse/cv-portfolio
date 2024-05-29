@@ -1,818 +1,1368 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./assets/Images/favicon.png" type="image/png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- Icon Font Stylesheet -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-  <!-- lightbox -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
-    integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- owl-carosol -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="assets/Css/bootstrap.css">
-  <!-- coustom csss -->
-  <link rel="stylesheet" href="assets/Css/style.css" />
-  <title>Home</title>
-</head>
-
-<body>
-  <!--================ Start Header Area =================-->
-  <header class="header_area">
-    <div class="main_menu">
-      <nav class="navbar navbar-expand-lg navbar-light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/Images/favicon.ico" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- lightbox -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+      integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl-carosol -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/Css/bootstrap.css" />
+    <!-- coustom csss -->
+    <link rel="stylesheet" href="assets/Css/style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!--================ Start Header Area =================-->
+    <header class="header_area">
+      <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h" href="/">
+              <h4 class="text-color-cm">Sakib</h4>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav navbar-nav menu_nav justify-content-end">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#service">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================ End Header Area =================-->
+    <!--================ Start Home Banner Area =================-->
+    <section class="home_banner_area">
+      <div class="banner_inner">
         <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="/">
-            <h4 class="text-color-cm">Sakib</h4>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-            <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#service">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="banner_content">
+                <h3 class="text-uppercase">Hello</h3>
+                <h1 class="text-uppercase">I am</h1>
+                <h2>Shahadot Hossain Sakib</h2>
+                <div class="type-wrap m-4">
+                  <div id="typed-strings">
+                    <h2>Python Developer</h2>
+                    <h2>Django Developer</h2>
+                    <h2>Flask Developer</h2>
+                    <h2>Rest API Builder</h2>
+                    <h2>Web Developer</h2>
+                    <h2>JavaScript Developer</h2>
+                    <h2>Node Js Developer</h2>
+                    <h2>Express Js Developer</h2>
+                    <h2>NextJs Developer</h2>
+                    <h2>React Developer</h2>
+                    <h2>Web Designer</h2>
+                    <h2>UI/UX Designer</h2>
+                  </div>
+                  <span
+                    id="typed"
+                    class="fs-1 fw-bold text-color-cm"
+                    style="white-space: pre"
+                  ></span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a
+                    class="primary_btn"
+                    href="https://www.linkedin.com/in/sakib6619/"
+                    ><span>Hire Me</span></a
+                  >
+                  <a
+                    class="primary_btn tr-bg"
+                    href="https://flowcv.com/resume/4bca7uuuuk"
+                    ><span>Get CV</span></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="home_right_img">
+                <img class="" src="./assets/Images/sk-dp.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <!--================ End Header Area =================-->
-  <!--================ Start Home Banner Area =================-->
-  <section class="home_banner_area">
-    <div class="banner_inner">
+      </div>
+    </section>
+    <!--================ End Home Banner Area =================-->
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="banner_content">
-              <h3 class="text-uppercase">Hello</h3>
-              <h1 class="text-uppercase">I am</h1>
-              <h2>Shahadot Hossain Sakib</h2>
-              <div class="type-wrap m-4">
-                <div id="typed-strings">
-                  <h2>Python Developer</h2>
-                  <h2>Web Developer</h2>
-                  <h2>NextJs Developer</h2>
-                  <h2>React Developer</h2>
-                  <h2>Web Designer</h2>
-                  <h2>UI/UX Designer</h2>
-                </div>
-                <span id="typed" class="fs-1 fw-bold text-color-cm" style="white-space: pre"></span>
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="d-flex align-items-center mb-5">
+              <div class="years flex-shrink-0 text-center me-4">
+                <h1 class="display-1 mb-0">3</h1>
+                <h5 class="mb-0">Years+</h5>
               </div>
-              <div class="d-flex align-items-center">
-                <a class="primary_btn" href="#"><span>Hire Me</span></a>
-                <a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
+              <h3 class="lh-base mb-0">
+                of working experience as a web designer & developer
+              </h3>
+            </div>
+            <p class="mb-4">
+              I create the website or web application user-friendly and
+              client-requirements basis. That's why clients interact with them
+              easily. I always focus on cross-browser testing, Accessibility
+              testing, and SEO Friendly.
+            </p>
+            <p class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Afordable
+              Prices
+            </p>
+            <p class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>High Quality
+              Product
+            </p>
+            <p class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>On Time
+              Project Delivery
+            </p>
+            <a class="primary_btn" href="#service"><span>Read More</span></a>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row g-3 mb-4">
+              <div class="col-sm-6">
+                <img
+                  class="img-fluid rounded h-100"
+                  src="./assets/Images/client-meting.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-sm-6">
+                <img
+                  class="img-fluid rounded"
+                  src="./assets/Images/software-development-team.png"
+                  alt=""
+                />
               </div>
             </div>
-          </div>
-          <div class="col-lg-5">
-            <div class="home_right_img">
-              <img class="" src="./assets/Images/sk-dp.png" alt="" />
+            <div class="d-flex align-items-center mb-3">
+              <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+              <h2 class="text-cm-primary fw-bold mb-0 counter">30</h2>
+              <b class="fs-3 text-cm-primary">+</b>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================ End Home Banner Area =================-->
-  <!-- About Start -->
-  <div class="container-xxl py-6" id="about">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="d-flex align-items-center mb-5">
-            <div class="years flex-shrink-0 text-center me-4">
-              <h1 class="display-1 mb-0">3</h1>
-              <h5 class="mb-0">Years+</h5>
+            <p class="mb-4">
+              "Hello! As a seasoned full-stack web developer, I bring over 20
+              happy clients' worth of expertise to your project. With a keen eye
+              for detail and a passion for crafting dynamic and user-friendly
+              websites, I am committed to bringing your vision to life. From
+              sleek frontend designs to robust backend functionalities, I'll
+              ensure your online presence stands out while delivering an
+              exceptional user experience. Let's collaborate and create
+              something extraordinary together!"
+            </p>
+            <div class="d-flex align-items-center mb-3">
+              <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
+              <h2 class="text-cm-primary fw-bold mb-0 counter">52</h2>
+              <b class="fs-3 text-cm-primary">+</b>
             </div>
-            <h3 class="lh-base mb-0">of working experience as a web designer & developer</h3>
-          </div>
-          <p class="mb-4">I create the website or web application user-friendly and client-requirements basis. That's
-            why clients interact with them easily. I always focus on cross-browser testing, Accessibility testing, and
-            SEO Friendly.</p>
-          <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Afordable Prices</p>
-          <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>High Quality Product</p>
-          <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>On Time Project Delivery</p>
-          <a class="primary_btn" href="#service"><span>Read More</span></a>
-        </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="row g-3 mb-4">
-            <div class="col-sm-6">
-              <img class="img-fluid rounded h-100" src="./assets/Images/client-meting.png" alt="">
-            </div>
-            <div class="col-sm-6">
-              <img class="img-fluid rounded" src="./assets/Images/software-development-team.png" alt="">
-            </div>
-          </div>
-          <div class="d-flex align-items-center mb-3">
-            <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
-            <h2 class="text-cm-primary fw-bold mb-0 counter">20</h2><b class="fs-3 text-cm-primary">+</b>
-          </div>
-          <p class="mb-4">"Hello! As a seasoned full-stack web developer, I bring over 20 happy clients' worth of
-            expertise to your project. With a keen eye for detail and a passion for crafting dynamic and user-friendly
-            websites, I am committed to bringing your vision to life. From sleek frontend designs to robust backend
-            functionalities, I'll ensure your online presence stands out while delivering an exceptional user
-            experience. Let's collaborate and create something extraordinary together!"</p>
-          <div class="d-flex align-items-center mb-3">
-            <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
-            <h2 class="text-cm-primary fw-bold mb-0 counter">30</h2><b class="fs-3 text-cm-primary">+</b>
-          </div>
-          <p class="mb-0">"Welcome! With over 30 successfully completed projects under my belt, I specialize in crafting
-            top-notch web solutions using HTML, CSS, JavaScript, React, Next.js, Python, Django, and Django Rest
-            Framework. Whether you're seeking a sleek frontend design, powerful backend development, or seamless
-            integration of both, I've got you covered. Let's work together to bring your ideas to life and elevate your
-            online presence to new heights!"</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- About End -->
-  <!-- Expertise Start -->
-  <div class="container-xxl py-6 pb-5" id="skill">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <h1 class="display-5 mb-5">Skills & Experience</h1>
-          <p class="mb-4">I am searching for the role of Full Stack Developer at an innovative company where I can
-            utilize my previous experience in designing, coding, testing, debugging, and deploying software and web
-            applications. I have 2-3 years of professional experience in software and web applications-related field..
-          </p>
-          <h3 class="mb-4">My Skills</h3>
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <h5 class="text-center">Front-End</h5>
-              <hr>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">Next Js</h6>
-                  <h6 class="font-weight-bold">70%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-njs" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">React</h6>
-                  <h6 class="font-weight-bold">75%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-react" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">JQuary</h6>
-                  <h6 class="font-weight-bold">80%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-jq" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">Javascript</h6>
-                  <h6 class="font-weight-bold">90%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-js" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">CSS</h6>
-                  <h6 class="font-weight-bold">95%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-css" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">HTML</h6>
-                  <h6 class="font-weight-bold">99%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-html" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <h5 class="text-center">Back-End</h5>
-              <hr>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">Python</h6>
-                  <h6 class="font-weight-bold">95%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-python" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">Django & Rest API</h6>
-                  <h6 class="font-weight-bold">90%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-dj" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">Flask</h6>
-                  <h6 class="font-weight-bold">60%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-flask" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">Node Js</h6>
-                  <h6 class="font-weight-bold">50%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-nodejs" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">Express Js</h6>
-                  <h6 class="font-weight-bold">65%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-express" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="skill mb-4">
-                <div class="d-flex justify-content-between">
-                  <h6 class="font-weight-bold">Database Managment</h6>
-                  <h6 class="font-weight-bold">82%</h6>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar bg-database" role="progressbar" aria-valuenow="82" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-          <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
-            <li class="nav-item w-50">
-              <button class="cm-primary_btn w-100 py-3 fs-5 active" data-bs-toggle="pill"
-                href="#tab-1">Experience</button>
-            </li>
-            <li class="nav-item w-50">
-              <button class="cm-primary_btn w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="tab-1" class="tab-pane fade show p-0 active">
-              <div class="row gy-5 gx-4">
-                <div class="col-sm-6">
-                  <h5>Full-Stack Web Developer</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2023 - (Continue)</p>
-                  <h6 class="mb-0">Dream Diver</h6>
-                </div>
-                <div class="col-sm-6">
-                  <h5>Back-End (Python Django)</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2021 - 2022</p>
-                  <h6 class="mb-0">Up-Work (Remote)</h6>
-                </div>
-                <div class="col-sm-6">
-                  <h5>Front End (React)</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2021 - 2022</p>
-                  <h6 class="mb-0">Up-Work (Remote)</h6>
-                </div>
-                <div class="col-sm-6">
-                  <h5>Web Designer</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2020 - 2021</p>
-                  <h6 class="mb-0">Fiver</h6>
-                </div>
-                <div class="col-sm-6">
-                  <h5>Digital Marketing & SEO </h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2019 - 2020</p>
-                  <h6 class="mb-0">Fiver</h6>
-                </div>
-              </div>
-            </div>
-            <div id="tab-2" class="tab-pane fade show p-0">
-              <div class="row gy-5 gx-4">
-                <div class="col-sm-6">
-                  <h5>Web Development with Python Django</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2023</p>
-                  <h6 class="mb-0">Creative IT Institute</h6>
-                </div>
-                <div class="col-sm-6">
-                  <h5>B.sc(CSE)</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2023- (Running)</p>
-                  <h6 class="mb-0">...</h6>
-                </div>
-                <div class="col-sm-6">
-                  <h5>Front-End Development</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2021 - 2022</p>
-                  <h6 class="mb-0">Programing Hero</h6>
-                </div>
-                <div class="col-sm-6">
-                  <h5>Diploma(CSE)</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2019-2023</p>
-                  <h6 class="mb-0">Munshiganj Polytechnic Institute</h6>
-                </div>
-                <div class="col-sm-6">
-                  <h5>Web Design</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2020 - 2021</p>
-                  <h6 class="mb-0">Stack Lerner</h6>
-                </div>
-                <div class="col-sm-6">
-                  <h5>SSC (Science)</h5>
-                  <hr class="text-cm-primary my-2">
-                  <p class="text-cm-primary mb-1">2019</p>
-                  <h6 class="mb-0">Mirza Rowsan Alli High School</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Expertise End -->
-  <!--================ Start Features Area =================-->
-  <section id="service">
-    <div class="container">
-      <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="col-lg-6">
-          <h1 class="display-5 mb-0">My Services</h1>
-        </div>
-        <div class="col-lg-6 text-lg-end">
-          <a class="primary_btn px-5" href="">Hire Me</a>
-        </div>
-      </div>
-      <div class="row feature_inner">
-        <div class="col-lg-4 col-md-6">
-          <div class="feature_item">
-            <img class="service-img rounded-circle" src="./assets/Images/py.png" alt="">
-            <h4>Python Programming</h4>
-            <p>Versatile language for web development, data analysis, artificial intelligence, and automation tasks.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="feature_item">
-            <img class="service-img rounded-circle" src="./assets/Images/wd.png" alt="">
-            <h4>Web Development</h4>
-            <p>Web development: Crafting digital experiences through code, creativity, and innovation.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="feature_item">
-            <img class="service-img rounded-circle" src="./assets/Images/webdj.png" alt="">
-            <h4>Web design</h4>
-            <p>Web design: Crafting visually stunning and user-friendly websites for businesses to thrive online.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="feature_item">
-            <img class="service-img rounded-circle" src="./assets/Images/ui.jpg" alt="">
-            <h4>UI/UX design</h4>
-            <p>"Passionate UI/UX designer crafting intuitive digital experiences for seamless user interaction</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="feature_item">
-            <img class="service-img rounded-circle" src="./assets/Images/s4.png" alt="">
-            <h4>seo optimize</h4>
-            <p>SEO optimization boosts online visibility, driving targeted traffic and enhancing website performance for
-              businesses</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="feature_item">
-            <img class="service-img rounded-circle" src="./assets/Images/dgm.png" alt="">
-            <h4>Digital Marketing</h4>
-            <p>Digital marketer adept at driving growth through strategic online campaigns. Portfolio showcases success.
+            <p class="mb-0">
+              "Welcome! With over 30 successfully completed projects under my
+              belt, I specialize in crafting top-notch web solutions using HTML,
+              CSS, JavaScript, React, Next.js, Python, Django, and Django Rest
+              Framework. Whether you're seeking a sleek frontend design,
+              powerful backend development, or seamless integration of both,
+              I've got you covered. Let's work together to bring your ideas to
+              life and elevate your online presence to new heights!"
             </p>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!--================ End Features Area =================-->
-  <!-- Projects Start -->
-  <div class="container-xxl py-6 pt-5" id="portfolio">
-    <div class="container">
-      <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
-        <div class="col-lg-6">
-          <h1 class="display-5 mb-0">My Projects</h1>
-        </div>
-        <div class="col-lg-6 text-lg-end">
-          <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
-            <li class="mx-2 active" data-filter="*">All Projects</li>
-            <li class="mx-2" data-filter=".first">UI/UX Design</li>
-            <li class="mx-2" data-filter=".second">Web Design</li>
-            <li class="mx-2" data-filter=".third">Web Development</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
-        <div class="col-lg-4 col-md-6 portfolio-item third">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/eshop-cover.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="./assets/Images/protfolio/Eshop.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/sakibbdcse"><i
-                  class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item first third">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/frienlycover.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="./assets/Images/protfolio/frienly.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/sakibbdcse"><i
-                  class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item first second third">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/doctorportal.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="./assets/Images/protfolio/dcportal.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/sakibbdcse"><i
-                  class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item third">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/limopacover.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="./assets/Images/protfolio/limopa.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/sakibbdcse"><i
-                  class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item second">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/portfoliocover.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="./assets/Images/protfolio/portfolio.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7186717379312136192/"><i
-                  class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item first ">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid w-100 project-img" src="./assets/Images/protfolio/babyshopcover.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="./assets/Images/protfolio/babshop.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item second third">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/studentmangementcover.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="./assets/Images/protfolio/studentmangementcover.png" data-lightbox="portfolio"><i
-                  class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7186717379312136192/"><i
-                  class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item first">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/pr1.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="./assets/Images/protfolio/pr1.png"
-                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item second">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/pr2.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="./assets/Images/protfolio/pr2.png"
-                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item third">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/socialbook.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
-                href="./assets/Images/protfolio/socialbook.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item first">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/pr3.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="./assets/Images/protfolio/pr3.png"
-                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item second">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/pr4.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="./assets/Images/protfolio/pr4.png"
-                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item first">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/pr5.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="./assets/Images/protfolio/pr5.png"
-                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item third">
-          <div class="portfolio-img rounded overflow-hidden">
-            <img class="img-fluid project-img" src="./assets/Images/protfolio/pr6.png" alt="">
-            <div class="portfolio-btn">
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="./assets/Images/protfolio/pr6.png"
-                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-              <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Projects End -->
-  <!--================ Start Testimonial Area =================-->
-  <div class="testimonial_area my-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <div class="main_title">
-            <h2>client say about me</h2>
-            <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
-              beginning signs open god you're gathering ithe</p>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-3 d-none d-lg-block">
-          <div class="testimonial-left h-100">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="./assets/Images/testimonial-1.jpg" alt="">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="./assets/Images/testimonial-2.jpg" alt="">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="./assets/Images/testimonial-3.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="owl-carousel testimonial-carousel">
-            <div class="testimonial-item text-center">
-              <div class="position-relative mb-5">
-                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
-                  src="./assets/Images/testimonial-1.jpg" alt="">
-                <div class="testimonial-icon">
-                  <i class="fa fa-quote-left text-primary"></i>
-                </div>
-              </div>
-              <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem
-                ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-              <hr class="w-25 mx-auto">
-              <h5>Mariya Db</h5>
-              <span>CEO</span>
-            </div>
-            <div class="testimonial-item text-center">
-              <div class="position-relative mb-5">
-                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
-                  src="./assets/Images/testimonial-2.jpg" alt="">
-                <div class="testimonial-icon">
-                  <i class="fa fa-quote-left text-primary"></i>
-                </div>
-              </div>
-              <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem
-                ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-              <hr class="w-25 mx-auto">
-              <h5>Davil Saden</h5>
-              <span>Co-ordination</span>
-            </div>
-            <div class="testimonial-item text-center">
-              <div class="position-relative mb-5">
-                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
-                  src="./assets/Images/testimonial-3.jpg" alt="">
-                <div class="testimonial-icon">
-                  <i class="fa fa-quote-left text-primary"></i>
-                </div>
-              </div>
-              <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem
-                ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-              <hr class="w-25 mx-auto">
-              <h5>Client Name</h5>
-              <span>Profession</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 d-none d-lg-block">
-          <div class="testimonial-right h-100">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="./assets/Images/testimonial-1.jpg" alt="">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="./assets/Images/testimonial-2.jpg" alt="">
-            <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="./assets/Images/testimonial-3.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--================ End Testimonial Area =================-->
-  <!-- Contact Start -->
-  <div class="container-xxl pb-5" id="contact">
-    <div class="container py-5">
-      <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="col-lg-6">
-          <h1 class="display-5 mb-0">Let's Work Together</h1>
-        </div>
-        <div class="col-lg-6 text-lg-end">
-          <a class="primary_btn py-1 px-5" href="https://www.linkedin.com/in/sakib6619/">Say Hello</a>
-        </div>
-      </div>
-      <div class="row g-5">
-        <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <p class="mb-2">My office:</p>
-          <h3 class="fw-bold">Framgate, Dhaka, Bangladesh</h3>
-          <hr class="w-100">
-          <p class="mb-2">Call me:</p>
-          <h3 class="fw-bold">+8801766195363</h3>
-          <hr class="w-100">
-          <p class="mb-2">Mail me:</p>
-          <h3 class="fw-bold">sakibbd.cse@gmail.com</h3>
-          <hr class="w-100">
-          <p class="mb-2">Follow me:</p>
-          <div class="d-flex pt-2">
-            <a class="btn btn-square primary_btn me-2" target="_blank" href="https://www.linkedin.com/in/sakib6619/"><i
-                class="fab fa-linkedin-in"></i></a>
-            <a class="btn btn-square primary_btn me-2" target="_blank" href="https://github.com/sakibbdcse"><i
-                class="fab fa-github"></i></a>
-            <a class="btn btn-square primary_btn me-2" target="_blank"
-              href="https://www.hackerrank.com/profile/sakibbdcse"><i class="fab fa-hackerrank"></i></a>
-            <a class="btn btn-square primary_btn me-2" target="_blank" href="https://twitter.com/sakib6619"><i
-                class="fab fa-twitter"></i></a>
-            <a class="btn btn-square primary_btn me-2" target="_blank" href="https://www.facebook.com/sk.sakib6619/"><i
-                class="fab fa-facebook-f"></i></a>
-          </div>
-        </div>
-        <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <form>
-            <div class="row g-3">
-              <div class="col-md-6">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="name" placeholder="Your Name">
-                  <label for="name">Your Name</label>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-floating">
-                  <input type="email" class="form-control" id="email" placeholder="Your Email">
-                  <label for="email">Your Email</label>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="subject" placeholder="Subject">
-                  <label for="subject">Subject</label>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-floating">
-                  <textarea class="form-control" placeholder="Leave a message here" id="message"
-                    style="height: 100px"></textarea>
-                  <label for="message">Message</label>
-                </div>
-              </div>
-              <div class="col-12">
-                <button class="primary_btn py-1 px-5" type="submit">Send Message</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Contact End -->
-  <!-- footer section -->
-  <footer>
-    <div id="dream-diver" class="bg-dark w-100 text-white py-2">
+    <!-- About End -->
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
       <div class="container">
-        <p class="text-center mb-0">
-          Developed by <a href="https://www.linkedin.com/in/sakib6619/" rel="noreferrer"
-            className="text-dreamDiver">Shahadot Hossain (<b class="text-warning">Sakib</b>)</a>
-        </p>
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="display-5 mb-5">Skills & Experience</h1>
+            <p class="mb-4">
+              I am searching for the role of Full Stack Developer at an
+              innovative company where I can utilize my previous experience in
+              designing, coding, testing, debugging, and deploying software and
+              web applications. I have 2-3 years of professional experience in
+              software and web applications-related field..
+            </p>
+            <h3 class="mb-4">My Skills</h3>
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h5 class="text-center">Front-End</h5>
+                <hr />
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Next Js</h6>
+                    <h6 class="font-weight-bold">70%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-njs"
+                      role="progressbar"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">React</h6>
+                    <h6 class="font-weight-bold">75%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-react"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">JQuary</h6>
+                    <h6 class="font-weight-bold">80%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-jq"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Javascript</h6>
+                    <h6 class="font-weight-bold">90%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-js"
+                      role="progressbar"
+                      aria-valuenow="80"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">CSS</h6>
+                    <h6 class="font-weight-bold">95%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-css"
+                      role="progressbar"
+                      aria-valuenow="95"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">HTML</h6>
+                    <h6 class="font-weight-bold">99%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-html"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h5 class="text-center">Back-End</h5>
+                <hr />
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Python</h6>
+                    <h6 class="font-weight-bold">95%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-python"
+                      role="progressbar"
+                      aria-valuenow="95"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Django & Rest API</h6>
+                    <h6 class="font-weight-bold">90%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-dj"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Flask</h6>
+                    <h6 class="font-weight-bold">60%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-flask"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Node Js</h6>
+                    <h6 class="font-weight-bold">50%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-nodejs"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Express Js</h6>
+                    <h6 class="font-weight-bold">65%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-express"
+                      role="progressbar"
+                      aria-valuenow="65"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Database Managment</h6>
+                    <h6 class="font-weight-bold">82%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-database"
+                      role="progressbar"
+                      aria-valuenow="82"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <ul
+              class="nav nav-pills rounded border border-2 border-primary mb-5"
+            >
+              <li class="nav-item w-50">
+                <button
+                  class="cm-primary_btn w-100 py-3 fs-5 active"
+                  data-bs-toggle="pill"
+                  href="#tab-1"
+                >
+                  Experience
+                </button>
+              </li>
+              <li class="nav-item w-50">
+                <button
+                  class="cm-primary_btn w-100 py-3 fs-5"
+                  data-bs-toggle="pill"
+                  href="#tab-2"
+                >
+                  Education
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div id="tab-1" class="tab-pane fade show p-0 active">
+                <div class="row gy-5 gx-4">
+                  <div class="col-sm-6">
+                    <h5>Full-Stack Web Developer</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2023 - (Continue)</p>
+                    <h6 class="mb-0">Dream Diver</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Back-End (Python Django)</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2021 - 2022</p>
+                    <h6 class="mb-0">Up-Work (Remote)</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Front End (React)</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2021 - 2022</p>
+                    <h6 class="mb-0">Up-Work (Remote)</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Web Designer</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2020 - 2021</p>
+                    <h6 class="mb-0">Fiver</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Digital Marketing & SEO</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2019 - 2020</p>
+                    <h6 class="mb-0">Fiver</h6>
+                  </div>
+                </div>
+              </div>
+              <div id="tab-2" class="tab-pane fade show p-0">
+                <div class="row gy-5 gx-4">
+                  <div class="col-sm-6">
+                    <h5>Web Development with Python Django</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2023</p>
+                    <h6 class="mb-0">Creative IT Institute</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>B.sc(CSE)</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2023- (Running)</p>
+                    <h6 class="mb-0">...</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Front-End Development</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2021 - 2022</p>
+                    <h6 class="mb-0">Programming Hero</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Diploma(CSE)</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2019-2023</p>
+                    <h6 class="mb-0">Munshiganj Polytechnic Institute</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Web Design</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2020 - 2021</p>
+                    <h6 class="mb-0">Stack Lerner</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>SSC (Science)</h5>
+                    <hr class="text-cm-primary my-2" />
+                    <p class="text-cm-primary mb-1">2019</p>
+                    <h6 class="mb-0">Mirza Rowan Ali High School</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </footer>
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-  <script src="jquery.counterup.min.js"></script>
-  <script src="./assets/js/lib/wow/wow.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"
-    integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="./assets/js/typed/typed.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-  <!-- lightbox -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"
-    integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- owl-carosol -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- bootsrtap -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-    crossorigin="anonymous"></script>
-  <script src="./assets/js/app.js"></script>
-</body>
-
+    <!-- Expertise End -->
+    <!--================ Start Features Area =================-->
+    <section id="service">
+      <div class="container">
+        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-6">
+            <h1 class="display-5 mb-0">My Services</h1>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <a
+              class="primary_btn px-5"
+              href="https://www.linkedin.com/in/sakib6619/"
+              >Hire Me</a
+            >
+          </div>
+        </div>
+        <div class="row feature_inner">
+          <div class="col-lg-4 col-md-6">
+            <div class="feature_item">
+              <img
+                class="service-img rounded-circle"
+                src="./assets/Images/py.png"
+                alt=""
+              />
+              <h4>Python Programming</h4>
+              <p>
+                Versatile language for web development, data analysis,
+                artificial intelligence, and automation tasks.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="feature_item">
+              <img
+                class="service-img rounded-circle"
+                src="./assets/Images/wd.png"
+                alt=""
+              />
+              <h4>Web Development</h4>
+              <p>
+                Web development: Crafting digital experiences through code,
+                creativity, and innovation.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="feature_item">
+              <img
+                class="service-img rounded-circle"
+                src="./assets/Images/webdj.png"
+                alt=""
+              />
+              <h4>Web design</h4>
+              <p>
+                Web design: Crafting visually stunning and user-friendly
+                websites for businesses to thrive online.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="feature_item">
+              <img
+                class="service-img rounded-circle"
+                src="./assets/Images/ui.jpg"
+                alt=""
+              />
+              <h4>UI/UX design</h4>
+              <p>
+                "Passionate UI/UX designer crafting intuitive digital
+                experiences for seamless user interaction
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="feature_item">
+              <img
+                class="service-img rounded-circle"
+                src="./assets/Images/s4.png"
+                alt=""
+              />
+              <h4>seo optimize</h4>
+              <p>
+                SEO optimization boosts online visibility, driving targeted
+                traffic and enhancing website performance for businesses
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="feature_item">
+              <img
+                class="service-img rounded-circle"
+                src="./assets/Images/dgm.png"
+                alt=""
+              />
+              <h4>Digital Marketing</h4>
+              <p>
+                Digital marketer adept at driving growth through strategic
+                online campaigns. Portfolio showcases success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Features Area =================-->
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="portfolio">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 align-items-center wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-6">
+            <h1 class="display-5 mb-0">My Projects</h1>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+              <li class="mx-2 active" data-filter="*">All Projects</li>
+              <li class="mx-2" data-filter=".first">UI/UX Design</li>
+              <li class="mx-2" data-filter=".second">Web Design</li>
+              <li class="mx-2" data-filter=".third">Web Development</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="row g-4 portfolio-container wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-4 col-md-6 portfolio-item third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/misi.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/misi_view.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="https://misineuro.netlify.app/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/foody_moody.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/foody_moody_view.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  target="_blank"
+                  href="https://foody-moody-restaurant.web.app/"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/poll.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/poll_view.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  target="_blank"
+                  href="https://sport-music-event.netlify.app/"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/eshop-cover.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/Eshop.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="https://github.com/sakibbdcse"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item first third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/frienlycover.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/frienly.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="https://github.com/sakibbdcse"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item first second third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/doctorportal.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/dcportal.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="https://github.com/sakibbdcse"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/limopacover.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/limopa.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="https://github.com/sakibbdcse"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item second">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/portfoliocover.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/portfolio.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7186717379312136192/"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item first">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid w-100 project-img"
+                src="./assets/Images/protfolio/babyshopcover.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/babshop.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href=""
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item second third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/studentmangementcover.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/studentmangementcover.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7186717379312136192/"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item first">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/pr1.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/pr1.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href=""
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item second">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/pr2.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/pr2.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href=""
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/socialbook.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/socialbook.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href=""
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item first">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/pr3.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/pr3.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href=""
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item second">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/pr4.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/pr4.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href=""
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item first">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/pr5.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/pr5.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href=""
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item third">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid project-img"
+                src="./assets/Images/protfolio/pr6.png"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href="./assets/Images/protfolio/pr6.png"
+                  data-lightbox="portfolio"
+                  ><i class="fa fa-eye"></i
+                ></a>
+                <a
+                  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                  href=""
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects End -->
+    <!--================ Start Testimonial Area =================-->
+    <div class="testimonial_area my-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="main_title">
+              <h2>client say about me</h2>
+              <p>
+                Is give may shall likeness made yielding spirit a itself togeth
+                created after sea is in beast <br />
+                beginning signs open god you're gathering ithe
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 d-none d-lg-block">
+            <div class="testimonial-left h-100">
+              <img
+                class="img-fluid wow fadeIn"
+                data-wow-delay="0.1s"
+                src="./assets/Images/testimonial-1.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid wow fadeIn"
+                data-wow-delay="0.3s"
+                src="./assets/Images/testimonial-2.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid wow fadeIn"
+                data-wow-delay="0.5s"
+                src="./assets/Images/testimonial-3.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="owl-carousel testimonial-carousel">
+              <div class="testimonial-item text-center">
+                <div class="position-relative mb-5">
+                  <img
+                    class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                    src="./assets/Images/testimonial-1.jpg"
+                    alt=""
+                  />
+                  <div class="testimonial-icon">
+                    <i class="fa fa-quote-left text-primary"></i>
+                  </div>
+                </div>
+                <p class="fs-5 fst-italic">
+                  Dolores sed duo clita tempor justo dolor et stet lorem kasd
+                  labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
+                  et labore et tempor diam tempor erat.
+                </p>
+                <hr class="w-25 mx-auto" />
+                <h5>Mariya Db</h5>
+                <span>CEO</span>
+              </div>
+              <div class="testimonial-item text-center">
+                <div class="position-relative mb-5">
+                  <img
+                    class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                    src="./assets/Images/testimonial-2.jpg"
+                    alt=""
+                  />
+                  <div class="testimonial-icon">
+                    <i class="fa fa-quote-left text-primary"></i>
+                  </div>
+                </div>
+                <p class="fs-5 fst-italic">
+                  Dolores sed duo clita tempor justo dolor et stet lorem kasd
+                  labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
+                  et labore et tempor diam tempor erat.
+                </p>
+                <hr class="w-25 mx-auto" />
+                <h5>Davil Saden</h5>
+                <span>Co-ordination</span>
+              </div>
+              <div class="testimonial-item text-center">
+                <div class="position-relative mb-5">
+                  <img
+                    class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                    src="./assets/Images/testimonial-3.jpg"
+                    alt=""
+                  />
+                  <div class="testimonial-icon">
+                    <i class="fa fa-quote-left text-primary"></i>
+                  </div>
+                </div>
+                <p class="fs-5 fst-italic">
+                  Dolores sed duo clita tempor justo dolor et stet lorem kasd
+                  labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
+                  et labore et tempor diam tempor erat.
+                </p>
+                <hr class="w-25 mx-auto" />
+                <h5>Client Name</h5>
+                <span>Profession</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 d-none d-lg-block">
+            <div class="testimonial-right h-100">
+              <img
+                class="img-fluid wow fadeIn"
+                data-wow-delay="0.1s"
+                src="./assets/Images/testimonial-1.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid wow fadeIn"
+                data-wow-delay="0.3s"
+                src="./assets/Images/testimonial-2.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid wow fadeIn"
+                data-wow-delay="0.5s"
+                src="./assets/Images/testimonial-3.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================ End Testimonial Area =================-->
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+      <div class="container py-5">
+        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-6">
+            <h1 class="display-5 mb-0">Let's Work Together</h1>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <a
+              class="primary_btn py-1 px-5"
+              href="https://www.linkedin.com/in/sakib6619/"
+              >Say Hello</a
+            >
+          </div>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <p class="mb-2">My office:</p>
+            <h3 class="fw-bold">Framgate, Dhaka, Bangladesh</h3>
+            <hr class="w-100" />
+            <p class="mb-2">Call me:</p>
+            <h3 class="fw-bold">+8801766195363</h3>
+            <hr class="w-100" />
+            <p class="mb-2">Mail me:</p>
+            <h3 class="fw-bold">sakibbd.cse@gmail.com</h3>
+            <hr class="w-100" />
+            <p class="mb-2">Follow me:</p>
+            <div class="d-flex pt-2">
+              <a
+                class="btn btn-square primary_btn me-2"
+                target="_blank"
+                href="https://www.linkedin.com/in/sakib6619/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                class="btn btn-square primary_btn me-2"
+                target="_blank"
+                href="https://github.com/sakibbdcse"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                class="btn btn-square primary_btn me-2"
+                target="_blank"
+                href="https://www.hackerrank.com/profile/sakibbdcse"
+                ><i class="fab fa-hackerrank"></i
+              ></a>
+              <a
+                class="btn btn-square primary_btn me-2"
+                target="_blank"
+                href="https://twitter.com/sakib6619"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-square primary_btn me-2"
+                target="_blank"
+                href="https://www.facebook.com/sk.sakib6619/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                    />
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Your Email"
+                    />
+                    <label for="email">Your Email</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="subject"
+                      placeholder="Subject"
+                    />
+                    <label for="subject">Subject</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea
+                      class="form-control"
+                      placeholder="Leave a message here"
+                      id="message"
+                      style="height: 100px"
+                    ></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="primary_btn py-1 px-5" type="submit">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+    <!-- footer section -->
+    <footer>
+      <div id="dream-diver" class="bg-dark w-100 text-white py-2">
+        <div class="container">
+          <p class="text-center mb-0">
+            Developed by
+            <a
+              href="https://www.linkedin.com/in/sakib6619/"
+              rel="noreferrer"
+              className="text-dreamDiver"
+              >Shahadot Hossain (<b class="text-warning">Sakib</b>)</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script src="./assets/js/lib/wow/wow.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"
+      integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/js/typed/typed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- lightbox -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"
+      integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- owl-carosol -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- bootsrtap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>
